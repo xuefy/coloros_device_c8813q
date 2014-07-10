@@ -1,0 +1,14 @@
+ res/layout/conversation_list_item.xml |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/res/layout/conversation_list_item.xml b/res/layout/conversation_list_item.xml
+index 866bc1d..ec7f404 100644
+--- a/res/layout/conversation_list_item.xml
++++ b/res/layout/conversation_list_item.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<com.android.mms.ui.ConversationListItem android:id="@id/conversation_list_item" android:paddingLeft="@dimen/oppo_list_item_left_margin" android:layout_width="498.0dip" android:layout_height="@dimen/conversation_list_item_height"
++<com.android.mms.ui.ConversationListItem android:id="@id/conversation_list_item" android:paddingLeft="@dimen/oppo_list_item_left_margin" android:layout_width="458.0dip" android:layout_height="@dimen/conversation_list_item_height"
+   xmlns:android="http://schemas.android.com/apk/res/android">
+     <FrameLayout android:id="@id/avatar_layout" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+         <com.oppo.widget.OppoQuickContactBadgeICS android:id="@id/avatar" android:background="@null" style="@style/OppoQuickContactBadgeStyleMargin" />
